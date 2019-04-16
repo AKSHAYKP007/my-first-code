@@ -20,7 +20,7 @@ int main()
       for (int j = 0; j < k; j++) {
         if (obstacles[j][0] == r_q && obstacles[j][1] == i)
           goto step2;}
-      count = count + 1;
+e      count = count + 1;
     }
     step2:
     //upwards and downwards
@@ -81,3 +81,4 @@ int main()
     printf("%d",count);
 return 0;        
 }
+he
