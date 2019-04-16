@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int n, k,r_q,r_c,r,c,count=0;int obstacles[100000][2];
+  int n, k,r_q,r_c,r,c,count=0;int obstacles[1000][2];
   scanf("%d %d", &n, &k);
   scanf("%d %d", &r_q, &r_c);
   for (int i = 0; i < k; i++) {
